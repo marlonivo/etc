@@ -1,15 +1,16 @@
 ### Update Blocklist
-There is a script in `.local/bin/hostfile` which can be used to update the Blocklist. After the installation of [SHARKS](https://github.com/marlonivo/sharks.git) or the manual download of this script, just type in the terminal (it will automatically update whenever you update your System):
+The script in `sync-hosts` can be used to update the Blocklist, just type in the terminal:
 ```
-hostfile
+sync-hosts
 ```
 
 ### Blocklist Includes
 
 1. **Personal Extras**
-2. **Luke Smith's General Junk Blocklist**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips)
-3. **4skinSkywalker's Pornblocklist**: [GitHub Link](https://github.com/4skinSkywalker/Anti-Porn-HOSTS-File/blob/master/HOSTS.txt)
-4. **dan.me.uk's Tor Exit Node List**: [dan.me.uk Link](https://www.dan.me.uk/torlist/?full) (❗ THIS WILL MAKE YOUR TOR BROWSER NOT ABLE TO CONNECT ANYMORE IN ORDER TO PREVENT SURROUNDING THE BLOCKLIST)
+2. **Luke Smith's General Junk List**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips)
+3. **dan.me.uk's Tor Exit Node List**: [dan.me.uk Link](https://www.dan.me.uk/torlist/?full) ❗ THIS WILL MAKE YOUR TOR BROWSER NOT ABLE TO CONNECT ANYMORE IN ORDER TO PREVENT SURROUNDING THE BLOCKLIST
+4. **columndeeply 10 Million Porn List**: [Github Link](https://github.com/columndeeply/hosts)
+
 
 ### Where to Place the Domains
 
