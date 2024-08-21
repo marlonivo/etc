@@ -1,18 +1,17 @@
-### Update Blocklist
+### Update Blocklist:
 The script in `sync-hosts` can be used to update the Blocklist, just type in the terminal:
 ```
 sync-hosts
 ```
 
-### Blocklist Includes
-
+### Blocklist Includes:
 1. **Personal Extras**
 2. **Luke Smith's General Junk List**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips)
 3. **dan.me.uk's Tor Exit Node List**: [dan.me.uk Link](https://www.dan.me.uk/torlist/?full) ❗ THIS WILL MAKE YOUR TOR BROWSER NOT ABLE TO CONNECT ANYMORE IN ORDER TO PREVENT SURROUNDING THE BLOCKLIST
 4. **columndeeply 10 Million Porn List**: [Github Link](https://github.com/columndeeply/hosts)
 
 
-### Where to Place the Domains
+### Where to Place the Domains:
 
 #### Linux:
 Place the domains in `/etc/hosts`:
