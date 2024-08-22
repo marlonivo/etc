@@ -6,9 +6,9 @@ sync-hosts
 
 ### Blocklist Includes:
 1. **Personal Extras**
-2. **Luke Smith's General Junk List**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips)
-3. **dan.me.uk's Tor Exit Node List**: [dan.me.uk Link](https://www.dan.me.uk/torlist/?full) ❗ THIS WILL MAKE YOUR TOR BROWSER NOT ABLE TO CONNECT ANYMORE IN ORDER TO PREVENT SURROUNDING THE BLOCKLIST
-4. **columndeeply 10 Million Porn List**: [Github Link](https://github.com/columndeeply/hosts)
+2. **Luke Smith's General Junk List**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips) [no further updates]
+3. **dan.me.uk's Tor Exit Node List**: [dan.me.uk Link](https://www.dan.me.uk/torlist/?full) [further updates] ❗ THIS WILL TOR BROWSER NOT ABLE TO CONNECT ANYMORE
+4. **columndeeply 10 Million Porn List**: [Github Link](https://github.com/columndeeply/hosts) [further updates]
 
 
 ### Where to Place the Domains:
