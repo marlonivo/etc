@@ -1,33 +1,35 @@
 ### 🟧 Installation & Update:
 
-I have a `lazy-hosts` script for lazy humans and a quick chain-command to make use of it, it will:
-
-1. Rewrite your `/etc/hosts` file.
-2. Place a script in `/usr/bin` to autimatically update, when you do a system-wide-update.
-3. Delete the `hosts` folder for you 
-4. Dont forget to reboot afterwards
+If youre a lazy-linuxer, use this command:
 
 ```
 git clone https://github.com/marlonivo/hosts.git && cd hosts && chmod +x lazy-hosts && lazy-hosts　&& rm -r hosts
 ```
 
-### 🟦 Blocklist:
+1. `git clone https://github.com/marlonivo/hosts.git` - Downloads repo
+2. `cd hosts && chmod +x lazy-hosts && lazy-hosts` - Uses this script to:
+   1. Overwrite your `/etc/hosts`
+   2. Puts itself to `/usr/bin` 
+   3. Every update it will merge repos and keep `/etc/hosts` clean (no comments/empty lines)
+3. `rm -r hosts` - Deletes repo from $HOME
+4. Dont forget to reboot
 
-When you use vim you can type `/`, to search for the individual parts:
+### 🟦 Lists:
 
-1. **Personal Extras**: Add your own Stuff here
-2. **Luke Smith's general-junk List**: [GitHub Link](https://github.com/LukeSmithxyz/etc/blob/master/ips) 
-3. **dan.me.uk's tor-exit-node List**: [Website Link](https://www.dan.me.uk/torlist/?full) ❗ THIS WILL TOR BROWSER NOT ABLE TO CONNECT ANYMORE
-4. **columndeeply 10 million-line-porn-block List**: [Github Link](https://github.com/columndeeply/hosts)
+Open `/etc/hosts` with vim and press `:/` to search for:
+
+1. **Personal List**: Your stuff
+2. **Luke Smith's List**: [Link](https://github.com/LukeSmithxyz/etc/blob/master/ips) 
+3. **dan.me.uk's List**: [Link](https://www.dan.me.uk/torlist/?full) ❗TOR WILL NOT CONNECT ANYMORE
+4. **columndeeply's List**: [Link](https://github.com/columndeeply/hosts)
 
 
 ### 🟩 Devices:
 
 #### Linux:
-Assuming youre not lazy, dont use the `lazy-hosts` script, manually place the list in `/etc/hosts`, delete the folder and keep it updated yourself.
 
 ```bash
-cd hosts && sudo cat hosts >> /etc/hosts && rm -r hosts
+sudo cat hosts >> /etc/hosts
 ```
 
 #### Windows:
@@ -35,21 +37,23 @@ cd hosts && sudo cat hosts >> /etc/hosts && rm -r hosts
 Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
 #### Android :
-1. Install `adb`:
+1. Activate `USB debugging` and `Rooted debugging` on your phone
+2. Install `adb`, on your computer:
+
    ```
    sudo pacman -S adb
    ```
-2. Plug phone into your computer.
-3. Run the following commands:
+3. Plug phone into computer.
+4. Run these commands:
    ```
    adb root
    adb remount
    adb push /etc/hosts /system/etc
    ```
 
-#### iPhone (irreversible workaround):
+#### iPhone (irreversible):
 1. Go to `Settings > Screen Time > Communication Security`
-2. Turn on filters for sensitive content and enter a password blindly.
-3. This is a pretty good blocklist, you dont need to worry to stumple upon porn related content.
+2. Turn on `filters for sensitive content` and enter a password blindly.
+3. This can be changed unless you call the apple's service center.
 
 ### 🟦 License: MIT
