@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Entferne alle Einträge nach der Markierung '# columndeeply's hosts list'
+sudo sed -i '/# columndeeply\'s hosts list/,$d' /etc/hosts
+
+# Repository klonen
+git clone https://github.com/columndeeply/hosts.git
+
+# Neue Einträge hinzufügen
+echo "# columndeeply's hosts list" | sudo tee -a /etc/hosts
+cat /home/artix/hosts/hosts00 /home/artix/hosts/hosts01 /home/artix/hosts/hosts02 /home/artix/hosts/hosts03 /home/artix/hosts/hosts04 | sudo tee -a /etc/hosts
+echo "# END columndeeply's hosts list" | sudo tee -a /etc/hosts
+
+# Verzeichnis löschen
+rm -rf
