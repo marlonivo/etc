@@ -56,7 +56,7 @@ Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
 #### iPhone (irreversible):
 1. Go to `Settings > Screen Time > Communication Security`
-2. Turn on `filters for sensitive content` and enter a password blindly.
+2. Turn on the `filters of your choice` and enter a password blindly.
 3. This can be changed unless you call the apple's service center.
 
 ### 🟦 License: MIT
