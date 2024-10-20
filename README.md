@@ -30,7 +30,7 @@ Open `/etc/hosts` with vim and press `:/` to search for:
 ### 🟩 Devices:
 
 #### Linux:
-Transfer the content to your local hosts file:
+Transfer the content to your local hosts file.
 ```bash
 sudo cat hosts >> /etc/hosts
 ```
@@ -41,13 +41,13 @@ Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
 #### Android:
 1. Activate `USB debugging` and `Rooted debugging` on your device.
-2. Install `adb`, on your computer:
+2. Install `adb`, on your computer.
 
    ```
    sudo pacman -S adb
    ```
 3. Plug device into computer.
-4. Push your local host file to it:
+4. Push your local host file to it.
    ```
    adb push /etc/hosts /system/etc
    ```
