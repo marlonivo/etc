@@ -39,18 +39,16 @@ sudo cat hosts >> /etc/hosts
 
 Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
-#### Android :
+#### Android:
 1. Activate `USB debugging` and `Rooted debugging` on your phone
 2. Install `adb`, on your computer:
 
    ```
    sudo pacman -S adb
    ```
-3. Plug phone into computer.
-4. Run these commands:
+3. Plug device into computer.
+4. Push your local host file to it:
    ```
-   adb root
-   adb remount
    adb push /etc/hosts /system/etc
    ```
 
