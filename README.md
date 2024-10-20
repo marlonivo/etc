@@ -1,4 +1,4 @@
-### 🟧 Installation & Update:
+### 🟧 Installation & Update
 
 If youre a lazy-linuxer, use this command:
 
@@ -16,7 +16,7 @@ git clone https://github.com/marlonivo/hosts.git && cd hosts && chmod +x lazy-ho
 
 -----
 
-### 🟦 Lists:
+### 🟦 Lists
 
 Open `/etc/hosts` with vim and press `:/` to search for:
 
@@ -27,7 +27,7 @@ Open `/etc/hosts` with vim and press `:/` to search for:
 
 -----
 
-### 🟩 Devices:
+### 🟩 Devices
 
 #### Linux:
 Transfer the content to your local hosts file.
@@ -35,11 +35,11 @@ Transfer the content to your local hosts file.
 sudo cat hosts >> /etc/hosts
 ```
 
-#### Windows:
+#### Windows
 
 Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
-#### Android:
+#### Android
 1. Activate `USB debugging` and `Rooted debugging` on your device.
 2. Install `adb`, on your computer.
 
@@ -52,7 +52,7 @@ Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
    adb push /etc/hosts /system/etc
    ```
 
-#### iPhone (irreversible):
+#### iPhone (irreversible)
 1. Go to `Settings > Screen Time > Communication Security`
 2. Turn on the `filters of your choice` and enter a password blindly.
 3. This can't be changed unless you call apple's service center.
