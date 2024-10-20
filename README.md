@@ -30,7 +30,7 @@ Open `/etc/hosts` with vim and press `:/` to search for:
 ### 🟩 Devices:
 
 #### Linux:
-
+Transfer the content to your local hosts file:
 ```bash
 sudo cat hosts >> /etc/hosts
 ```
@@ -40,7 +40,7 @@ sudo cat hosts >> /etc/hosts
 Place the domains in `C:\Windows\System32\drivers\etc\hosts`.
 
 #### Android:
-1. Activate `USB debugging` and `Rooted debugging` on your phone
+1. Activate `USB debugging` and `Rooted debugging` on your device.
 2. Install `adb`, on your computer:
 
    ```
