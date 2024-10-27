@@ -3,7 +3,8 @@
 If youre a lazy-linuxer, use this command:
 
 ```
-git clone https://github.com/marlonivo/hosts.git && cd hosts && chmod +x lazy-hosts && lazy-hosts　&& rm -r hosts
+git clone https://github.com/marlonivo/hosts.git 
+sh ./lazy-hosts.sh
 ```
 
 1. `git clone https://github.com/marlonivo/hosts.git` - Downloads repo
