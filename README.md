@@ -7,8 +7,6 @@ Open `/etc/hosts` with vim and press `:/` to search for:
 3. **dan.me.uk's List**: [Link](https://www.dan.me.uk/torlist/?full) ❗TOR WILL NOT CONNECT ANYMORE
 4. **columndeeply's List**: [Link](https://github.com/columndeeply/hosts)
 
------
-
 ## 🟩 Devices
 
 #### Linux:
