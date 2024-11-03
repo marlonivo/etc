@@ -1,4 +1,4 @@
-### 🟦 Lists
+## 🟦 Lists
 
 Open `/etc/hosts` with vim and press `:/` to search for:
 
@@ -9,7 +9,7 @@ Open `/etc/hosts` with vim and press `:/` to search for:
 
 -----
 
-### 🟩 Devices
+## 🟩 Devices
 
 #### Linux:
 Transfer the content to your local hosts file.
