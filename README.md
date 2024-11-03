@@ -1,22 +1,3 @@
-### 🟧 Installation & Update
-
-If youre a lazy-linuxer, use this command:
-
-```
-git clone https://github.com/marlonivo/hosts.git 
-sh ./lazy-hosts.sh
-```
-
-1. `git clone https://github.com/marlonivo/hosts.git` - Downloads repo
-2. `cd hosts && chmod +x lazy-hosts && lazy-hosts` - Uses this script to:
-   1. Overwrite your `/etc/hosts`
-   2. Puts itself to `/usr/bin` 
-   3. Every update it will merge repos and keep `/etc/hosts` clean (no comments/empty lines)
-3. `rm -r hosts` - Deletes repo from $HOME
-4. Dont forget to reboot
-
------
-
 ### 🟦 Lists
 
 Open `/etc/hosts` with vim and press `:/` to search for:
