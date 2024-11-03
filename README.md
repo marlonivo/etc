@@ -1,6 +1,6 @@
 ## 🟦 Lists
 
-Open `/etc/hosts` with vim and press `:/` to search for:
+Open `hosts` with vim and press `:/` to search for:
 
 1. **Personal List**: Your stuff
 2. **Luke Smith's List**: [Link](https://github.com/LukeSmithxyz/etc/blob/master/ips) 
