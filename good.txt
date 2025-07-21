@@ -5,3 +5,4 @@
 0.0.0.0 marlonivo.xyz
 0.0.0.0 test.com
 0.0.0.0 bumsen.com
+0.0.0.0 ficken.com
