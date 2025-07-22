@@ -8,3 +8,4 @@
 0.0.0.0 ficken.com
 0.0.0.0 bitch.com
 0.0.0.0 fuck.com
+0.0.0.0 slut.com
