@@ -50,6 +50,4 @@ C:\Windows\System32\drivers\etc\hosts
 
 ---
 
-### 🟦 License
-
-MIT License
+### 🟦 MIT License
