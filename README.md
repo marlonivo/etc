@@ -27,7 +27,7 @@ C:\Windows\System32\drivers\etc\hosts
 
 ### Android
 
-1. Enable `USB debugging` and `Rooted debugging` on your device  
+1. Enable `USB debugging` and `Rooted debugging` in developer settings.
 2. Install `adb` on your computer:
 
    ```bash
