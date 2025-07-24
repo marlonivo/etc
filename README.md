@@ -9,8 +9,6 @@ Open your `hosts` file with `vim` and use `:/` to search for entries.
 3. **dan.me.uk’s TOR List** – [Website Link](https://www.dan.me.uk/torlist/?full) ❗ *TOR will no longer work after using this*  
 4. **columndeeply’s List** – [GitHub Link](https://github.com/columndeeply/hosts)
 
----
-
 ## 🟩 Devices
 
 ### Linux
@@ -21,8 +19,6 @@ Append the content to your system hosts file:
 sudo cat hosts >> /etc/hosts
 ```
 
----
-
 ### Windows
 
 Manually place the domains into:
@@ -30,8 +26,6 @@ Manually place the domains into:
 ```
 C:\Windows\System32\drivers\etc\hosts
 ```
-
----
 
 ### Android
 
@@ -49,8 +43,6 @@ C:\Windows\System32\drivers\etc\hosts
    adb remount
    adb push /etc/hosts /system/etc
    ```
-
----
 
 ### iPhone (irreversible)
 
