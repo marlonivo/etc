@@ -5,7 +5,7 @@ Open your `hosts` file with `vim` and use `:/` to search for entries.
 1. My custom List [19 entries]
 2. [Luke Smith’s Ad's List](https://github.com/LukeSmithxyz/etc/blob/master/ips) [49.694 entries]
 3. [dan.me.uk’s Tor List](https://www.dan.me.uk/torlist/?full) [9.000 entries] ❗ *Tor will no longer work after using this*  
-4. [columndeeply’s Porn List](https://github.com/columndeeply/hosts) [>1.000.000 entries]
+4. [columndeeply’s Porn List](https://github.com/columndeeply/hosts) [>10.000.000 entries]
 
 ## 🟩 Devices
 
