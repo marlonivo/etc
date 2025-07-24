@@ -9,7 +9,7 @@ Open your `hosts` file with `vim` and use `:/` to search for entries.
 
 ## 🟩 Devices
 
-### Linux
+### Linux, MacOS
 
 Append the content to your system hosts file:
 
