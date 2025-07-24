@@ -4,7 +4,7 @@ Open your `hosts` file with `vim` and use `:/` to search for entries.
 
 ### Unified Hosts Lists
 
-1. Personal List – My custom List [19 entries]
+1. My custom List [19 entries]
 2. [Luke Smith’s List](https://github.com/LukeSmithxyz/etc/blob/master/ips) [49.694 entries]
 3. [dan.me.uk’s TOR List](https://www.dan.me.uk/torlist/?full) [9.000 entries] ❗ *TOR will no longer work after using this*  
 4. [columndeeply’s List](https://github.com/columndeeply/hosts) [>1.000.000 entries]
