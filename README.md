@@ -48,6 +48,3 @@ C:\Windows\System32\drivers\etc\hosts
 2. Enable desired filters and blindly set a password  
 3. ⚠️ This cannot be undone unless you call Apple Support
 
----
-
-### 🟦 MIT License
