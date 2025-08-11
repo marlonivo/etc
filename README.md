@@ -1,5 +1,3 @@
-## 🟩 Devices
-
 ### Linux, MacOS
 
 Append the content to your system hosts file:
