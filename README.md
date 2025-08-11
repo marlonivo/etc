@@ -46,5 +46,5 @@ C:\Windows\System32\drivers\etc\hosts
 
 1. Go to: `Settings > Screen Time > Communication Safety`  
 2. Enable desired filters and blindly set a password  
-3. ⚠️ This cannot be undone unless you call Apple Support
+3. ⚠️ This cannot be undone unless you call [Apple Support](https://support.apple.com/)
 
