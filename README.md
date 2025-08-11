@@ -25,7 +25,7 @@ Manually place the domains into:
 C:\Windows\System32\drivers\etc\hosts
 ```
 
-### Android
+### Android (rooted)
 
 1. Enable `USB debugging` and `Rooted debugging` in developer settings.
 2. Install `adb` on your computer:
