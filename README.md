@@ -1,6 +1,6 @@
 ## 🟦 Lists
 
-My custom Block-List [19 entries]. Open your `hosts` file with `vim` and use `:/` to search for entries.
+My custom Block-List [19 entries]. Open `hosts` file with `vim` and use `:/` to search for entries.
 
 ## 🟩 Devices
 
