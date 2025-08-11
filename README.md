@@ -29,7 +29,7 @@ C:\Windows\System32\drivers\etc\hosts
    sudo pacman -S adb
    ```
 
-3. Connect the device and push your local hosts file:
+3. Connect phone, tablet, etc and push your local hosts file:
 
    ```bash
    adb root
