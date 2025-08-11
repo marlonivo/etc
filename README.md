@@ -37,7 +37,7 @@ C:\Windows\System32\drivers\etc\hosts
    adb push /etc/hosts /system/etc
    ```
 
-### iPhone (irreversible)
+### IOS (irreversible)
 
 1. Go to: `Settings > Screen Time > Communication Safety`  
 2. Enable desired filters and blindly set a password  
