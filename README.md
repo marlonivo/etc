@@ -1,21 +1,16 @@
 ### Linux, MacOS
-
 Append the content to your system hosts file:
-
 ```bash
 sudo cat hosts >> /etc/hosts
 ```
 
 ### Windows
-
 Manually place the domains into:
-
 ```
 C:\Windows\System32\drivers\etc\hosts
 ```
 
 ### Android (rooted)
-
 1. Enable `USB debugging` and `Rooted debugging` in developer settings.
 2. Install `adb` on your computer:
 
@@ -24,15 +19,16 @@ C:\Windows\System32\drivers\etc\hosts
    ```
 
 3. Connect phone, tablet, etc and push your local hosts file:
-
    ```bash
    adb root
    adb remount
    adb push /etc/hosts /system/etc
    ```
 
-### IOS (irreversible)
+#### Android (non-rooted)
+1. Install DNSnet and add the domain in the hosts tab.
 
+### IOS (irreversible)
 1. Go to: `Settings > Screen Time > Communication Safety`  
 2. Enable desired filters and blindly set a password  
 3. ⚠️ This cannot be undone unless you call [Apple Support](https://support.apple.com/)
